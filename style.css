@@ -62,3 +62,17 @@ section{
 footer p{
     text-align: center;
 }
+/* এটি আপনার আগের কোডের একদম শেষে বসাবেন */
+
+@media screen and (max-width: 768px) {
+    /* মোবাইলের জন্য আপনার মেনু বা সেকশনগুলো নিচে নিচে দেখানোর জন্য */
+    .header, .main-content, .footer { 
+        flex-direction: column;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
